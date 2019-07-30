@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <style>
+    body{
+      background-color:  #D0A9F5;
+      margin: 0;
+    }
+    h1{
+      color: white;
+      font-size: 90px;
+      text-align: center;
+      border-bottom: 10px solid yellow;
+      background-color: brown;
+      text-shadow: black 5px 5px;
+      font-family: fantasy;
+      margin: 0;
+    }
+      a{
+        color:coral;
+        text-decoration: none;
+        font-size: 50px;
+           }
+           ol{
+             width: 250px;
+             margin: 0;
+             border-right: yellow solid 5px;
+             padding: 33px;
+           }
+       #study{
+        font-size: 30px;
+        text-align: center;
+        border-style: solid 1px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 330px 1fr;
+        border-bottom: 5px solid yellow;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>Hellow web</title>
+  </head>
+  <body>
+      <a href="index.html"><h1>WEB</h1></a>
+    <div id="grid">
+
+
+    <ol>
+      <li><a href="1.html">CSS</a></li>
+      <li><a href="2.html">HTML</a></li>
+      <li><a href="3.html">Java Script</a></li>
+      <input type="button" name="night" value="night" onclick="
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white'; ">
+      <input type="button" name="day" value="day" onclick="
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black'; ">
+    </ol>
+    <div>
+      <h2>주의!!</h2>
+      <p style="font-size:20px;font-family:fantasy;font-weight:bold;font-style:italic;">이곳은 지식을 쌓고 실력을 양성하고자하는 사이트입니다.</br>
+      많은 배움을 통해 실력을 쌓아가길 부탁드리겠습니다.</br></p>
+
+  </div>
+  </div>
+    <div id="study">
+      <strong>이곳은 공부를 위한 사이트입니다.</strong>
+    </div>
+</body>
+</html>
